@@ -1,0 +1,14 @@
+{
+  "name": "02_fibonacci",
+  "version": "1.0.0",
+  "description": "consultar se tem um determinado valor na sequência de Fibonacci",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "João Micheletti",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
