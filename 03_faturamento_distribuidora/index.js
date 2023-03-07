@@ -139,7 +139,9 @@ for(i = 0; i < dadosJason.length; i ++){
 		maiorValorFaturadoDia = dadosJason[i].valor;
 	};
 
-	if(dadosJason[i].valor < menorValorFaturadoDia){
+	if(dadosJason[i].valor === 0){
+		menorValorFaturadoDia = menorValorFaturadoDia;
+	} else if(dadosJason[i].valor < menorValorFaturadoDia){
 		menorValorFaturadoDia = dadosJason[i].valor;
 	};
 	
